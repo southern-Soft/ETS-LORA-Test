@@ -1,0 +1,6 @@
+dependencies:
+  idf: ">=5.0"
+  espressif/arduino-esp32:
+    version: ">=3.0.0"
+    rules:
+      - if: "target == esp32s3"
